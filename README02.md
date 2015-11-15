@@ -4,8 +4,11 @@ Shadowsocks有众多版本，这里采用 [aa65535](http://sourceforge.net/u/aa6
 ####下载软件
 - [ShadowSocks-libev-PolarSSL](http://sourceforge.net/projects/openwrt-dist/files/shadowsocks-libev/) 最新版为 2.4.1-6f44d53 （2015-11-16）
 
-####安装软件
+####安装ipset
 	opkg update
+	opkg install iptables-mod-nat-extra ipset libpolarssl
+####卸载dnsmasq并安装dnsmasq-full
+	opkg remove dnsmasq && opkg install dnsmasq-full
 	opkg install shadowsocks-libev-polarssl_2.4.1-1_ar71xx.ipk
 ####配置软件
   	mkdir /etc/dnsmasq.d
