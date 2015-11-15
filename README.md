@@ -12,12 +12,9 @@
 - 最新稳定版 [Chaos Calmer 15.05](https://downloads.openwrt.org/chaos_calmer/15.05/)   发布于 2015-9-11 星期五
 
 嘿，这日子，又适逢星期五还？我怎么会说“又”呢！
-## OpenWrt 刷机方法
+## [OpenWrt 刷机方法](README01.md)
 设置电脑本地连接为 192.168.1.2 255.255.255.0<br>
 部分路由器如D-LINK等，需设为192.168.0.1，这些路由刷完openwrt后，需第二次改IP为192.168.1.1<br>
 下载windows应用软件<br>
-##安装shadowsocks-libev
-安装
-##配置shadowsocks-libev
-配置
-##over
+##[安装shadowsocks-libev](README02.md)
+##[配置shadowsocks-libev](README03.md)
