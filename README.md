@@ -8,7 +8,10 @@
 为什么呢？<br>
 我习惯到处走，不方便携带怎么行？
 ##刷什么版本的OpenWrt？
-不二的选择：最新稳定版，不刷 Snapshot 版
+###不二的选择：最新稳定版，不刷 Snapshot 版
 - 最新稳定版 [Chaos Calmer 15.05](https://downloads.openwrt.org/chaos_calmer/15.05/) 2015-9-11星期五发布（这日子，这星期五）<br>
 
-##开刷openwrt
+## OpenWrt 刷机方法
+###设置电脑本地连接为 192.168.1.2 255.255.255.0
+部分路由器如D-LINK等，需设为192.168.0.1，这些路由刷完openwrt后，需第二次改IP为192.168.1.1
+###下载windows应用软件
