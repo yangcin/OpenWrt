@@ -9,6 +9,8 @@ Shadowsocks有众多版本，这里采用 [aa65535](http://sourceforge.net/u/aa6
 	opkg install iptables-mod-nat-extra ipset libpolarssl
 ####卸载dnsmasq并安装dnsmasq-full
 	opkg remove dnsmasq && opkg install dnsmasq-full
+####安装shadowsocks-libev
+	cd /tmp
 	opkg install shadowsocks-libev-polarssl_2.4.1-1_ar71xx.ipk
 ####配置软件
   	mkdir /etc/dnsmasq.d
