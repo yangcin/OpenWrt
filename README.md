@@ -9,5 +9,5 @@
 我习惯到处走，不方便携带怎么行？
 ##刷什么版本的OpenWrt？
 不二的选择：最新稳定版，不刷 Snapshot 版
-- 最新稳定版[Chaos Calmer 15.05](https://downloads.openwrt.org/chaos_calmer/15.05/) 2015-9-11星期五发布（这日子，这星期五）
+- 最新稳定版 [Chaos Calmer 15.05](https://downloads.openwrt.org/chaos_calmer/15.05/) 2015-9-11星期五发布（这日子，这星期五）<br>
 ##开刷openwrt
